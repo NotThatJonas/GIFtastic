@@ -1,6 +1,7 @@
 
+
 // displayMovieInfo function re-renders the HTML to display the appropriate content
-function displayMovieInfo() {
+function displayGIF() {
 
   var movie = $(this).attr("data-name");
   var queryURL = "https://www.omdbapi.com/?t=" + movie + "&apikey=trilogy";
@@ -94,7 +95,7 @@ $("#add-movie").on("click", function(event) {
 });
 
 // Adding a click event listener to all elements with a class of "movie-btn"
-$(document).on("click", ".movie-btn", displayMovieInfo);
+$(document).on("click", ".movie-btn", displayGIF);
 
 // Calling the renderButtons function to display the intial buttons
 renderButtons();
