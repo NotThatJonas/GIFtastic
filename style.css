@@ -13,3 +13,8 @@ button {
   input {
     margin: 10px;
   }
+
+  .gif-row {
+      width: auto;
+      float: left;
+  }
