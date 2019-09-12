@@ -15,6 +15,19 @@ button {
   }
 
   .gif-row {
-      width: auto;
+      width: 20%;
       float: left;
+  }
+
+  body {
+    background-image: url('./assets/images/space.jpg');
+    color: beige;
+  }
+
+  label {
+    font-size: 30px;
+  }
+
+  h1 {
+    text-align: center;
   }
